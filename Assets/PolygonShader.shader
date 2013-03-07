@@ -11,7 +11,6 @@ Shader "Example/ScreenPos" {
 			float4 screenPos;
 		};
 		sampler2D _MainTex;
-		sampler2D _Detail;
 		void surf (Input IN, inout SurfaceOutput o) {
 			float2 screenUV = IN.screenPos.xy / IN.screenPos.w*0.5;
 			screenUV *= float2(2.0,1.5);
