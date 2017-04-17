@@ -3,7 +3,7 @@ Shader "Example/ScreenPos" {
 		_MainTex ("Texture", 2D) = "white" { }
 	}
 	SubShader {
-		Tags { "RenderType" = "Opaque" "LightMode" = "Vertex" }
+		Tags { "RenderType" = "Opaque" }
 		CGPROGRAM
 		#pragma surface surf Lambert
 		struct Input {
